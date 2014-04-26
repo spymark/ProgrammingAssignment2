@@ -3,6 +3,8 @@
 
 ## Write a short comment describing this function
 
+## This function calculates the inverse of a matrix
+## It is assumed that the input matrix is inversible
 makeCacheMatrix <- function(x = matrix()) {
   x_inv <- NULL
   
@@ -25,7 +27,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-
+##This function returns and prints the inverse of an input matrix. 
+##If the inverse has been previously calculated it serves the cached result, otherwise 
+## It is assumed that the input matrix is inversible
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
   
